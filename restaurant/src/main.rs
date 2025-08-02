@@ -1,13 +1,8 @@
 // Este arquivo é apenas para testar nossa biblioteca
-use restaurant::{eat_at_restaurant, front_of_house};
+use restaurant::front_of_house;
 
 fn main() {
     println!("=== Testando o restaurante ===");
-    
-    // Usando a função principal da biblioteca
-    eat_at_restaurant();
-    
-    println!("\n=== Simulando atendimento completo ===");
     
     // Usando funções diretamente dos módulos
     front_of_house::hosting::add_to_waitlist();

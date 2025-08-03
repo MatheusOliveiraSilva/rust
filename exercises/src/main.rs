@@ -1,6 +1,8 @@
 mod vector;
+mod pig_latin;
 
 use vector::median_and_mode;
+use pig_latin::convert_words;
 
 fn main() {
 
@@ -28,7 +30,21 @@ fn main() {
         median_and_mode(vec4);
     }
 
-    println!("==== Exercise 2: ... ====");
+    println!("==== Exercise 2: Vowels convertion ====");
+
+    {
+        println!("\n Test 1");
+        let str1 = String::from("Oie");
+        let str1_converted = convert_words(&str1);
+        println!("Converted {str1} to {str1_converted}");
+
+        println!("\n Test 2");
+        let str2 = String::from("Salve");
+        let str2_converted = convert_words(&str2);
+        println!("Converted {str2} to {str2_converted}");
+    }
+
+    println!("==== Exercise 3: ... ====");
 
     {
         

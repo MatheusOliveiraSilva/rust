@@ -30,7 +30,7 @@ fn main() {
         median_and_mode(vec4);
     }
 
-    println!("==== Exercise 2: Vowels convertion ====");
+    println!("==== Exercise 2: Pig Latin ====");
 
     {
         println!("\n Test 1");
@@ -47,6 +47,6 @@ fn main() {
     println!("==== Exercise 3: ... ====");
 
     {
-        
+
     }
 }

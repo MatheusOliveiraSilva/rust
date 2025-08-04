@@ -1,8 +1,10 @@
 mod vector;
 mod pig_latin;
+mod employees;
 
 use vector::median_and_mode;
 use pig_latin::convert_words;
+use employees::cli_interface;
 
 fn main() {
 
@@ -47,6 +49,6 @@ fn main() {
     println!("==== Exercise 3: ... ====");
 
     {
-
+        cli_interface();
     }
 }

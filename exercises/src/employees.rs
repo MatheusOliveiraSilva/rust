@@ -107,7 +107,7 @@ fn parse_command(input: &str) -> Option<Command> {
     if input == "/show_all" {
         return Some(Command::ShowAll);
     }
-
+    //
     if input == "exit" {
         return Some(Command::Break);
     }
